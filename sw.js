@@ -1,4 +1,4 @@
-const RELEASE_ID = "d543884afbc2";
+const RELEASE_ID = "1319d8ae88f4";
 const CACHE_NAMESPACE = `adventurer-guild-app:${self.registration.scope}`;
 const CACHE_NAME = `${CACHE_NAMESPACE}:${RELEASE_ID}`;
 const APP_SHELL_PATHS = [
@@ -29,8 +29,8 @@ const APP_SHELL_PATHS = [
   "assets/characters/generated/selene.png",
   "assets/characters/generated/tessa.png",
   "assets/dotgothic16-japanese-400-normal-DqORjlTR.woff2",
-  "assets/index-CZGd1o2t.js",
-  "assets/index-DoRSD39g.css",
+  "assets/index-By4MdlRT.css",
+  "assets/index-Dc6K90ar.js",
   "assets/vendor/fantasy-portraits/mage-placeholder.png",
   "assets/vendor/fantasy-portraits/scout.png",
   "assets/vendor/fantasy-portraits/warrior.png",
