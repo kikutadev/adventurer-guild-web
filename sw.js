@@ -1,18 +1,36 @@
-const RELEASE_ID = "0ba3caa2dac9";
+const RELEASE_ID = "2b05bd5f92cd";
 const CACHE_NAMESPACE = `adventurer-guild-app:${self.registration.scope}`;
 const CACHE_NAME = `${CACHE_NAMESPACE}:${RELEASE_ID}`;
 const APP_SHELL_PATHS = [
   "assets/areas/forest-placeholder.svg",
   "assets/areas/generated/ancient-ruins.png",
+  "assets/areas/generated/ashen-wastes.png",
   "assets/areas/generated/cave.png",
   "assets/areas/generated/forest.png",
   "assets/areas/generated/grassland.png",
+  "assets/areas/generated/mist-marsh.png",
+  "assets/areas/generated/moonlit-citadel.png",
+  "assets/areas/generated/red-canyon.png",
+  "assets/areas/generated/sky-ruins.png",
+  "assets/areas/generated/snow-pass.png",
+  "assets/areas/generated/sunken-temple.png",
+  "assets/areas/generated/world-scar.png",
   "assets/areas/grassland-placeholder.svg",
   "assets/backgrounds/guild-interior.webp",
+  "assets/characters/generated/brann.png",
+  "assets/characters/generated/elio.png",
+  "assets/characters/generated/faye.png",
+  "assets/characters/generated/kael.png",
+  "assets/characters/generated/lune.png",
   "assets/characters/generated/mage.png",
+  "assets/characters/generated/nia.png",
+  "assets/characters/generated/orin.png",
+  "assets/characters/generated/rook.png",
+  "assets/characters/generated/selene.png",
+  "assets/characters/generated/tessa.png",
   "assets/dotgothic16-japanese-400-normal-DqORjlTR.woff2",
-  "assets/index-D3gD7Egr.css",
-  "assets/index-DxBwegyN.js",
+  "assets/index-BpyIKBLH.css",
+  "assets/index-UHaNh1HJ.js",
   "assets/vendor/fantasy-portraits/mage-placeholder.png",
   "assets/vendor/fantasy-portraits/scout.png",
   "assets/vendor/fantasy-portraits/warrior.png",
@@ -21,7 +39,8 @@ const APP_SHELL_PATHS = [
   "icons/guild-icon-192.png",
   "icons/guild-icon-512.png",
   "index.html",
-  "manifest.webmanifest"
+  "manifest.webmanifest",
+  "portrait-qa.html"
 ];
 
 const scopedUrl = (path) => new URL(path, self.registration.scope).href;
